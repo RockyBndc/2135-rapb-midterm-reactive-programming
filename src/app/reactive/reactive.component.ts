@@ -35,7 +35,7 @@ fromEVEN.subscribe((value) => console.log('[FROM] Even Number: ', value));
 //Filter: Odd Numbers
 const fromODD = fromNUM.pipe(filter((value) => value % 2 === 1));
 fromODD.subscribe((value) => console.log('[FROM] Odd Number: ', value));
-//Write the code to display the given outputA
+//Write the code to display the given output
 fromEVEN.subscribe((value) => console.log(value, ' => ', value * 2));
 
 @Component({
